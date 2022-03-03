@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="/stylesheets/stars.css">
 
     <div class="row">
-        <div class="col-6">
+        <div class="col-md-6">
             <div class="card mb-3">
                 <!-- <div class="mb-3" id='map'></div> -->
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -49,7 +49,7 @@
         </div>
         
         <!-- For Review Form -->
-        <div class="col-6">
+        <div class="col-md-6">
             <div id='map'></div>
 
             <% if(currentUser){ %> 
@@ -110,7 +110,6 @@
 <script>
     const mapToken = '<%- process.env.MAPBOX_TOKEN %>';
     const foundCamp = <%- JSON.stringify(foundCamp) %>;
-    console.log(`Hello`);
 </script>
 
 <script src="/javascripts/showMapBox.js"></script>
