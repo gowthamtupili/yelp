@@ -1,1 +1,1 @@
-# Hotel/Campgrounds Reviews Web App.
+# Hotel/Campground Reviews Web App.
